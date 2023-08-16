@@ -30,5 +30,8 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Drag-Drop">Drag N Drop</a></h3></summary>
     <a href="https://64b96d0e142fcf2914936550--incandescent-clafoutis-e5e237.netlify.app/">Live Version</a> <br>
 </details>
-
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Content%20Placeholder">Content Placeholder</a></h3></summary>
+    <a href="https://64dce6f25339c4252b23c4f2--stately-alfajores-44ad2b.netlify.app/">Live Version</a> <br>
+</details>
 
