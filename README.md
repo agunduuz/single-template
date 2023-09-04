@@ -37,6 +37,10 @@ If you would like to review them, you can find the links to the project files be
 <details>
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Sticky-Navbar">Sticky Navbar</a></h3></summary>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Double%20Vertical%20Slider">Double Vertical Slider</a></h3></summary>
+    <a href="https://64f5ea1e3dd92a555cfcfa41--roaring-bavarois-4303b8.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
