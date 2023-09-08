@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-fill: #e8cfff;
+  --primary-fill: #635985;
+  --secondary-fill: #443c68;
+  --alternative-fill: #18122b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(
+    to left,
+    #090512,
+    #0f0919,
+    #130c1f,
+    #160f25,
+    #18122b
+  );
+  color: var(--main-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 1em;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+form.user-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+form.user-form input {
+  width: 100%;
+  display: block;
+  background-color: var(--alternative-fill);
+  border: none;
+  border-top: 1px solid var(--main-fill);
+  border-left: 1px solid var(--main-fill);
+  border-radius: 10px;
+  color: var(--main-fill);
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+form.user-form input::placeholder {
+  color: #bbb;
+}
+form.user-form input:focus {
+  outline: none;
+}
+
+main section.card {
+  max-width: 600px;
+  background-color: var(--secondary-fill);
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  margin: 0 1.5rem;
+}
+
+main section.card article img.avatar {
+  border-radius: 50%;
+  border: 7px solid var(--alternative-fill);
+  height: 150px;
+  width: 150px;
+}
+
+main section.card article.user-info {
+  margin-left: 2rem;
+}
+main section.card article.user-info h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid var(--alternative-fill);
+}
+main section.card article.user-info p {
+  color: #fff;
+  font-weight: 400;
+}
+main section.card article.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+  list-style-type: none;
+  margin: 1rem 0;
+}
+main section.card article.user-info ul li {
+  display: flex;
+  align-items: center;
+  color: var(--main-fill);
+  background-color: var(--alternative-fill);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
+main section.card article.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.25rem;
+  color: #fff;
+  background-color: var(--primary-fill);
+  padding: 0.25rem;
+  border-radius: 3px;
+}
+main section.card article.user-info div a.repo {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--alternative-fill);
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  border-radius: 3px;
+}
+main section.card article.user-info div a.repo:nth-child(2n) {
+  color: var(--main-fill);
+}
+
+@media (max-width: 500px) {
+  main section.card {
+    flex-direction: column;
+    align-items: center;
+  }
+  form.user-form {
+    max-width: 400px;
+  }
+}

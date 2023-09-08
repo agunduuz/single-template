@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-fill: #540b0e;
+  --primary-fill: #ee484b;
+  --secondary-fill: #e09f3e;
+  --alternative-fill: #fff3b0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(
+    to left,
+    #fff3b0,
+    #f6df92,
+    #eeca75,
+    #e7b559,
+    #e09f3e
+  );
+  color: var(--main-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: var(--main-fill);
+  color: var(--alternative-fill);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fa-heart {
+  color: var(--primary-fill);
+}
+
+section.loveMe {
+  height: 440px;
+  width: 300px;
+  background: url('https://images.pexels.com/photos/6424589/pexels-photo-6424589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+    center center/cover no-repeat;
+  cursor: pointer;
+  max-width: 100%;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+section.loveMe .fa-heart {
+  position: absolute;
+  animation: grow 0.6s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+}
