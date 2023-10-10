@@ -41,6 +41,17 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Double%20Vertical%20Slider">Double Vertical Slider</a></h3></summary>
     <a href="https://64f5ea1e3dd92a555cfcfa41--roaring-bavarois-4303b8.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Toast-Notification">Toast Notification</a></h3></summary>
+</details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/GitHub-Profiles">GitHub Profiles</a></h3></summary>
+    <a href="https://64fb178bd66b7e7b6e035d77--fastidious-cucurucho-fac77a.netlify.app/">Live Version</a> <br>
+</details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Double-Heart-Click">Double Heart Click</a></h3></summary>
+    <a href="https://64fb18051bafc97c2035842a--melodic-froyo-7e075d.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
