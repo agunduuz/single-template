@@ -52,6 +52,10 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Double-Heart-Click">Double Heart Click</a></h3></summary>
     <a href="https://64fb18051bafc97c2035842a--melodic-froyo-7e075d.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Auto-Text-Effect">Auto Text Effect</a></h3></summary>
+    <a href="https://652589342cf8ce08a44a11ea--legendary-trifle-3b07e1.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
