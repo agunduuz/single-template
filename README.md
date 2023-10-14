@@ -56,6 +56,10 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Auto-Text-Effect">Auto Text Effect</a></h3></summary>
     <a href="https://652589342cf8ce08a44a11ea--legendary-trifle-3b07e1.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Password-Generator">Password Generator</a></h3></summary>
+    <a href="https://6529a6ebee71d62413c7da10--willowy-profiterole-17b3c8.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
