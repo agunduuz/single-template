@@ -26,14 +26,21 @@ body {
   font-weight: 500;
 }
 
-section.toggle-container {
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+}
+main section.toggle-container {
     display: flex;
     align-items: center;
     margin: 10px 0;
-    width: 33%;
+    width: 200px;
 }
-section.toggle-container .toggle{visibility: hidden;}
-section.toggle-container .label{
+main section.toggle-container .toggle{visibility: hidden;}
+main section.toggle-container .label{
     background-color: var(--alternative-fill);
     cursor: pointer;
     border-radius: 50px;
@@ -43,8 +50,8 @@ section.toggle-container .label{
     width: 80px;
     position: relative;
 }
-section.toggle-container .toggle:checked + .label {background-color: var(--main-fill);}
-section.toggle-container .label .ball{
+main section.toggle-container .toggle:checked + .label {background-color: var(--main-fill);}
+main section.toggle-container .label .ball{
     background-color: var(--color-fill);
     height: 34px;
     width: 34px;
@@ -56,7 +63,7 @@ section.toggle-container .label .ball{
     justify-content: center;
     animation: slideOff 0.3s linear forwards;
 }
-section.toggle-container .toggle:checked + .label .ball{
+main section.toggle-container .toggle:checked + .label .ball{
     animation: slideOn 0.3s linear forwards;
 }
 
@@ -83,3 +90,4 @@ section.toggle-container .toggle:checked + .label .ball{
         transform: translateX(0) scale(1)
     }
 }
+
