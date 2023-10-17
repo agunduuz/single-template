@@ -60,6 +60,10 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Good-Cheap-Fast">Good, Cheap & Fast</a></h3></summary>
     <a href="https://652af5401393ec6cbd6b2c04--effervescent-llama-800a09.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Notes-App">Notes App</a></h3></summary>
+    <a href="https://652ee8d59936d96b2229ab7e--fabulous-marigold-e5e2be.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
