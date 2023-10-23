@@ -64,6 +64,10 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Notes-App">Notes App</a></h3></summary>
     <a href="https://652ee8d59936d96b2229ab7e--fabulous-marigold-e5e2be.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Animated-Countdown">Animated Countdown</a></h3></summary>
+    <a href="https://653194a7d0e5e82ada1a56cb--majestic-seahorse-207dd6.netlify.app/">Live Version</a> <br>
+</details>
 
 
 
