@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-fill: rgb(51, 25, 64);
+  --alternative-fill: #5E366A;
+  --color-fill: #0CCA98;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #040116;
+  overflow: hidden;
+}
+body::before{
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    bottom: -500px;
+    right: 50px;
+    box-shadow: -1400px -1100px 300px 30px #1c0b7c;
+}
+body::after{
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    top: -500px;
+    left: -500px;
+    box-shadow: 1800px 900px 300px 30px #250242;
+}
+
+section.carousel{
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+}
+section.carousel .image-container{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+section.carousel .image-container img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+.buttons-container .btn{
+    color: var(--color-fill);
+    border: none;
+    padding: 1rem 3rem;
+    width: 49.5%;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: var(--alternative-fill);
+    font-family: inherit;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
+}
+.buttons-container .btn:hover{opacity: 0.9;}
+.buttons-container .btn:focus{outline: none;}
+
+@media screen and (max-width: 991px) {
+    body::before{
+        bottom: -450px;
+        right: -1250px;
+    }
+    body::after{
+        top: -300px;
+        left: -1600px;
+    }
+    section.carousel{
+        height: 390px;
+        width: 390px;
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.2);
+    }
+}
