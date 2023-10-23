@@ -68,6 +68,9 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Animated-Countdown">Animated Countdown</a></h3></summary>
     <a href="https://653194a7d0e5e82ada1a56cb--majestic-seahorse-207dd6.netlify.app/">Live Version</a> <br>
 </details>
-
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Image-Carousel">Image Carousel</a></h3></summary>
+    <a href="https://6536d780292c861c604d560c--dazzling-pothos-d798ce.netlify.app/">Live Version</a> <br>
+</details>
 
 
