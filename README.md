@@ -72,5 +72,9 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Image-Carousel">Image Carousel</a></h3></summary>
     <a href="https://6536d780292c861c604d560c--dazzling-pothos-d798ce.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Hoverboard">Hoverboard</a></h3></summary>
+    <a href="https://653827390e48e710989e4cef--preeminent-souffle-603ac8.netlify.app/">Live Version</a> <br>
+</details>
 
 
