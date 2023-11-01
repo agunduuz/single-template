@@ -76,5 +76,8 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Hoverboard">Hoverboard</a></h3></summary>
     <a href="https://653827390e48e710989e4cef--preeminent-souffle-603ac8.netlify.app/">Live Version</a> <br>
 </details>
-
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Pokedex">Pokedex</a></h3></summary>
+    <a href="https://6542ab926ff2cf1cd60df3b8--timely-gelato-e1ddc1.netlify.app/">Live Version</a> <br>
+</details>
 
