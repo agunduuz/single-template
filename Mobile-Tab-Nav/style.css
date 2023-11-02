@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --bg-color: #0c356a;
+  --first-color: #0174be;
+  --alternative-color: #ffc436;
+  --font-color: #fff0ce;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1em;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #0c356a, #072c58, #052446, #051b35, #041225);
+}
+
+section.mobile-container {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--bg-color);
+  border-radius: 15px;
+  height: 600px;
+  width: 340px;
+  box-shadow: -1px -1px 47px 7px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: -1px -1px 47px 7px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: -1px -1px 47px 7px rgba(0, 0, 0, 0.45);
+}
+section.mobile-container .content {
+  opacity: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 60px);
+  width: 100%;
+  transition: opacity 0.4s ease;
+}
+section.mobile-container .content.show { opacity: 1; }
+
+section.mobile-container nav { position: absolute; bottom: 0; left: 0; margin-top: -5px; width: 100%; }
+section.mobile-container nav ul { background-color: var(--bg-color); display: flex; list-style-type: none; padding: 0; margin: 0; height: 60px; }
+section.mobile-container nav ul li { color: var(--font-color); cursor: pointer; flex: 1; padding: 10px; text-align: center; }
+section.mobile-container nav ul li p { font-size: 12px; margin: 2px 0; }
+
+section.mobile-container nav ul li:hover,
+section.mobile-container nav ul li.active {
+  color: var(--alternative-color);
+}
