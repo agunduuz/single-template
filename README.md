@@ -84,4 +84,8 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Mobile-Tab-Nav">Mobile Tab Nav</a></h3></summary>
     <a href="https://6544013faa65295c4991b699--astonishing-capybara-421ad9.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Password-Strength">Password Strength</a></h3></summary>
+    <a href="https://65454337d649bc0e26a96c83--profound-rugelach-700449.netlify.app/">Live Version</a> <br>
+</details>
 
