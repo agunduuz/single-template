@@ -88,4 +88,8 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Password-Strength">Password Strength</a></h3></summary>
     <a href="https://65454337d649bc0e26a96c83--profound-rugelach-700449.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/3D-Background">3D Background</a></h3></summary>
+    <a href="https://65455b21a9512d21b1472437--aesthetic-trifle-39b6c6.netlify.app/">Live Version</a> <br>
+</details>
 
