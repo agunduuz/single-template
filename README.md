@@ -96,3 +96,7 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Verify-Account-UI">Verify Account UI</a></h3></summary>
     <a href="https://65495fcf71ad240303ea14c8--merry-froyo-6a7fda.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Live-User-Filter">Live User Filter</a></h3></summary>
+    <a href="https://654aac807fbc9b241bf873df--whimsical-stardust-13f061.netlify.app/">Live Version</a> <br>
+</details>
