@@ -100,3 +100,7 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Live-User-Filter">Live User Filter</a></h3></summary>
     <a href="https://654aac807fbc9b241bf873df--whimsical-stardust-13f061.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Feedback-UI-Design">Feedback UI Design</a></h3></summary>
+    <a href="https://654bf71759d2f94dd437096d--transcendent-pithivier-b85b10.netlify.app/">Live Version</a> <br>
+</details>
