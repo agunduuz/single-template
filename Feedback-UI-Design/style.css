@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root { --primary-color: #7209b7; --font-color: #e0e0e0; --detail-color: #affc41; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 500;
+  background-image: linear-gradient(to right top, #292f36, #23292f, #1e2228, #181c21, #13161a);
+}
+
+section.panel-container{
+    background-color: #1e2228;
+    box-shadow: 0 0 50px #1e2228, 0 0 25px var(--primary-color);
+    border-radius: 4px;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    max-width: 400px;
+    border: 2px solid var(--primary-color);
+}
+
+section.panel-container strong{line-height: 20px;}
+section.panel-container .ratings-container{ display: flex; margin: 20px 0; }
+section.panel-container .ratings-container .rating{
+    flex: 1;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 5px;
+}
+section.panel-container .ratings-container .rating:hover,
+section.panel-container .ratings-container .rating.active
+{
+    border-radius: 4px;
+    box-shadow: 0 0 50px var(--primary-color), 0 0 5px var(--font-color);
+}
+
+section.panel-container .ratings-container .rating img{width: 50px;}
+section.panel-container .ratings-container .rating small{
+    color: #555;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+section.panel-container .ratings-container .rating:hover small,
+section.panel-container .ratings-container .rating.active small
+{
+    color: #ddd;
+}
+section.panel-container .btn{
+    background-color: var(--detail-color);
+    font-family: inherit;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 30px;
+    color: #1e2228;
+    cursor: pointer;
+    box-shadow: 0 0 50px #1e2228, 0 0 10px var(--detail-color);
+
+}
+section.panel-container .btn:focus{outline: 0;}
+section.panel-container .btn:active{transform: scale(0.98);}
+
+.fa-heart{ color:var(--primary-color) ; font-size: 30px; margin-bottom: 10px; }
+.feedback-info{color: var(--detail-color);}
