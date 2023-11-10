@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --primary-color: #ff1100;
+  --font-color: #e0e0e0;
+  --detail-color: #1e2228;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 500;
+  background-image: linear-gradient(to right top, #292f36, #23292f, #1e2228, #181c21, #13161a);
+}
+/* BEGIN: GLOBAL CODE*/
+.logo { width: 150px;  }
+p.text { text-transform: uppercase; }
+button.nav-btn { border: none; background-color: transparent; cursor: pointer; font-size: 20px; }
+button.nav-btn.open-btn { position: fixed; top: 30px; left: 30px; color: #fff;}
+div.nav { position: fixed; top: 0; left: 0; height: 100vh; transform: translateX(-100%); transition: transform 0.3s ease-in-out; }
+div.nav.visible { transform: translateX(0); }
+/* END: GLOBAL CODE*/
+
+
+div.nav.nav-black{ background-color: var(--detail-color); width: 60%; max-width: 480px; min-width: 320px; transition-delay: .4s;}
+div.nav .nav.nav-red{ background-color: var(--primary-color); width: 95%; transition-delay: .2s;}
+div.nav .nav .nav.nav-white{ background-color: var(--font-color); width: 95%; padding: 40px; position: relative; transition-delay: 0s; }
+
+div.nav.nav-black.visible{transition-delay: 0s;}
+div.nav .nav.nav-red.visible{transition-delay: 0s;}
+div.nav .nav .nav.nav-white.visible{transition-delay: 0.4s;}
+
+div.nav .nav .nav .nav-btn.close-btn{ position: absolute; top: 40px; right: 30px; opacity: 0.3; }
+div.nav .nav .nav .list, div.nav .nav .nav .list .list-items .items-list{list-style-type: none; padding: 0;}
+div.nav .nav .nav .list .list-items{margin: 20px 0;}
+div.nav .nav .nav .list .list-items .link{color: var(--detail-color); 
+font-size: 14px; text-decoration: none; text-transform: uppercase;}
+div.nav .nav .nav .list .list-items .link:hover{opacity: 0.6;}
+div.nav .nav .nav .list .list-items .items-list{ list-style-type: none; padding-left: 20px; }
