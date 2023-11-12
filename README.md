@@ -108,3 +108,7 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Custom-Range-Slider">Custom Range Slider</a></h3></summary>
     <a href="https://654d4bee1e7faa09cc3b4c8a--cerulean-cobbler-f2d86d.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Netflix-Nav">Mobile Netflix Navigation</a></h3></summary>
+    <a href="https://6550dc9f52dd8a0442806814--charming-nasturtium-b7008b.netlify.app/">Live Version</a> <br>
+</details>
