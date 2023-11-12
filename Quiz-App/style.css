@@ -46,3 +46,11 @@ section.quiz-container .btn{
 section.quiz-container .btn:hover{ background-color: var(--detail-color); }
 section.quiz-container .btn:focus{outline: none; background-color: var(--primary-color); }
 
+@media screen and (max-width: 768px) {
+    section.quiz-container{
+        width:375px;
+    }
+section.quiz-container .quiz-header .answers-list .answer-item{font-size: 1rem; }
+section.quiz-container .title{font-size: 1.4rem;}
+
+}
