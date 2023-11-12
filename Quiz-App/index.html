@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Quiz App" />
+    <meta name="keywords" content="Quiz App" />
+    <meta name="author" content="Anıl Gündüz" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Quiz App</title>
+</head>
+<body>
+    <section class="quiz-container" id="quiz">
+        <h2 id="question" class="title">Question Text</h2>
+        <div class="quiz-header">
+            <ul class="answers-list">
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text" class="text">Question</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text" class="text">Question</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text" class="text">Question</label>
+                </li>
+                <li class="answer-item">
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text" class="text">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit" class="btn">Submit</button>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
