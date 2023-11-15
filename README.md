@@ -116,3 +116,8 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Quiz-App">Quiz App</a></h3></summary>
     <a href="https://65512f6c52dd8a38f2806862--ornate-gaufre-3a66d2.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Testimonial-Switcher">Testimonial Switcher</a></h3></summary>
+    <a href="https://655517c7010abc4dcb95a0b3--beamish-fox-2f10fa.netlify.app/">Live Version</a> <br>
+</details>
+
