@@ -120,4 +120,7 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Testimonial-Switcher">Testimonial Switcher</a></h3></summary>
     <a href="https://655517c7010abc4dcb95a0b3--beamish-fox-2f10fa.netlify.app/">Live Version</a> <br>
 </details>
-
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Random-Image-Feed">Random Image Feed</a></h3></summary>
+    <a href="https://melodious-cuchufli-9e97b7.netlify.app/">Live Version</a> <br>
+</details>
