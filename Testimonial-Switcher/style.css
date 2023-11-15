@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root { --font-color: #1e2228; --primary-color: #FF0080; --detail-color: #c0ff00; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 500;
+  background-image: linear-gradient(to right top, #292f36, #23292f, #1e2228, #181c21, #13161a);
+}
+
+    
+section.testimonial-container{ background-color: var(--detail-color); border-radius: 15px; margin: 20px auto; padding: 50px 80px; max-width: 768px; position: relative;box-shadow: 0 0 50px #1e2228, 0 0 25px var(--detail-color);}
+section.testimonial-container .fa-quote{ font-size: 28px; color: rgba(0, 0, 0, 0.3); position: absolute; top: 60px; }
+section.testimonial-container .fa-quote-right{left: 40px;}
+section.testimonial-container .fa-quote-left{right: 40px;}
+
+section.testimonial-container .testimonial{ line-height: 29px; text-align: justify; }
+section.testimonial-container .user{ display: flex; align-items: center; justify-content: center; margin-top: 10px;}
+section.testimonial-container .user .user-image{ border-radius: 50%; height: 75px; width: 75px; object-fit: cover; border: 3px solid var(--font-color); box-shadow: 0 0 50px var(--detail-color), 0 0 25px var(--font-color); }
+section.testimonial-container .user .user-details{margin-left: 10px;}
+section.testimonial-container .user .user-details .username{margin: 0;}
+section.testimonial-container .user .user-details .role{font-weight: normal;}
+
+section.testimonial-container .progress-bar{ background-color: var(--primary-color); height: 4px; width: 100%; animation: grow 10s linear infinite; transform-origin: left; border-radius: 30px;box-shadow: 0 0 2px var(--primary-color), 0 0 1px var(--primary-color); }
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0)
+    }
+}
+@media screen and (max-width:768px) {
+    section.testimonial-container {padding: 20px 30px;}
+    section.testimonial-container .fa-quote{display: none;}
+}
