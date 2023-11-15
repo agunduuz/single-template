@@ -11,7 +11,7 @@ The fundamental tools used in the projects are for a Basic Front-End Developer:
 
 May you have a practical and joyful life. 😊
 
-**_NOTE:_** In my projects, **I used the Turkish language**. Within each project, I have provided a description of the subject matter. 
+**_NOTE:_** In my projects, **I used the Turkish and English languages**. Within each project, I have provided a description of the subject matter. 
 There is a file where **I explain the process step by step**. <br>
 
 If you would like to review them, you can find the links to the project files below. 😊📂
