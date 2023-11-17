@@ -31,3 +31,6 @@ form.form .todos .todo.completed{ color: #b6b6b6; text-decoration: line-through;
 .info{ color: var(--font-color); margin-top: 3rem; text-align: center; opacity: 0.5;}
 .info span{ color: var(--detail-color); opacity: 1; }
 
+@media screen and (max-width: 420px){
+    h1.heading{font-size: 6rem;}
+}
