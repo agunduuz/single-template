@@ -124,3 +124,7 @@ If you would like to review them, you can find the links to the project files be
     <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Random-Image-Feed">Random Image Feed</a></h3></summary>
     <a href="https://melodious-cuchufli-9e97b7.netlify.app/">Live Version</a> <br>
 </details>
+<details>
+    <summary><h3><a href="https://github.com/agunduuz/single-template/tree/main/Todo-List">Todo List</a></h3></summary>
+    <a href="https://6557da5fd4ee3a267ebbc434--silver-bonbon-7c3002.netlify.app/">Live Version</a> <br>
+</details>
