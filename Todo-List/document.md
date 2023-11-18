@@ -1,4 +1,4 @@
-# Day 49 - Todo List
+# Todo List
 
 ## Todo List UI
 

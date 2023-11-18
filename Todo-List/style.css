@@ -33,4 +33,5 @@ form.form .todos .todo.completed{ color: #b6b6b6; text-decoration: line-through;
 
 @media screen and (max-width: 420px){
     h1.heading{font-size: 6rem;}
+    form.form{width: 375px;}
 }
